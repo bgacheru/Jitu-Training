@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    background-color: #F4F4F4;
+}
+.About {
+    margin-left: 30px;
+}
+.Experiences{
+    margin-left: 15px;
+}
+.Achievements{
+    margin-left: 15px;
+}
+.Skills{
+    margin-left: 15px;
+}
+.name{
+    font-size: 40px; 
+    font-weight:bold; 
+    float:right; 
+    margin-right: 800px
+    text-transform: uppercase;
+}
