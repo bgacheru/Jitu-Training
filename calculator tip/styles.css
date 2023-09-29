@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+
+body {
+  font-family: Space Mono;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.toplogo {
+  margin: 35px;
+}
+
+
+body {
+  background-color: hsl(185, 41%, 84%);
+}
+.main {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border-radius: 12px;
+}
+
+
+
+.leftboxclass {
+  background-color: rgb(255, 255, 255);
+  height: 305px;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 20px;
+}
+.inputclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+}
+
+.inputclass:hover {
+  cursor: pointer;
+}
+.textinputclass {
+  font-size: 24px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+ 
+.number {
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+  margin-right: 5px;
+}
+
+
+#tipid,#billid,#peepsid {
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+}
+
+.maingridclass {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+  margin: 5px;
+}
+
+#box1id {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+#box2id {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+#box3id {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+#box4id {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+#box5id {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+#box6id {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+}
+
+
+.box {
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+.box:hover {
+  cursor: pointer;
+  border-color: hsl(172, 67%, 45%);
+}
+
+
+.gridnumberclass {
+  margin-left: 5px;
+}
+
+
+#peepsid {
+  margin-top: 10px;
+}
+
+
+.mainoneclass {
+  display: flex;
+  flex-direction: column;
+}
+.rightboxclass {
+  height: 305px;
+  display: flex;
+  background-color: hsl(183, 100%, 15%);
+  flex-direction: column;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+.oneclass, .belowclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+.oneclass {
+  margin-top: 29px;
+}
+.belowclass {
+  margin: 25px;
+}
+
+.number2class {
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(172, 67%, 45%);
+  margin-left: 20px;
+}
+
+.imgbox2class {
+  color: hsl(172, 67%, 45%);
+}
+.number2class img {
+  width: 14px;
+  margin-right: 3px;
+}
+.oneclass .textinputclass {
+  color: white;
+  font-size: 9px;
+  margin-right: 30px;
+}
+
+.dimclass {
+  color: hsl(0, 0%, 67%);
+}
+
+.boldclass {
+  font-weight: 700;
+}
+
+.belowclass .textinputclass {
+  color: white;
+  font-size: 9px;
+  margin-right: 30px;
+}
+
+button {
+  background-color: hsl(172, 67%, 45%);
+  border-style: none;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+  margin: 26px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
